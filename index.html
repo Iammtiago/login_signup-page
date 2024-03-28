@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,51 +8,66 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
+
 <body>
 
     <div class="container" id="container">
         <div class="form-container sign-up">
-            <form >
+            <form>
                 <h1>Create Account</h1>
+                <input id="name-sign-up" type="text" placeholder="Name">
+                <input id="email-sign-up" type="email" placeholder="Email">
+                <input id="password-sign-up" type="password" placeholder="Password">
+                <button id="sign-up">Sign up</button>
+                <!-- <span>Or use your email for registeration</span> -->
+                <span class="or">Or</span>
                 <div class="social-icons">
                     <a href="/" class="icon">
-                        <i class="fa-brands fa-google-plus-g"></i></a>
+                        <i class="fa-brands fa-google-plus-g"></i>
+                        <span>Google</span>
+                    </a>
                     <a href="/" class="icon">
-                        <i class="fa-brands fa-github"></i></a>
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
                     <a href="/" class="icon">
-                        <i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="/" class="icon">
-                        <i class="fa-brands fa-instagram"></i></a>
-                    <a href="/" class="icon">
-                        <i class="fa-brands fa-linkedin-in"></i></a>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <span>Facebook</span>
+                    </a>
                 </div>
-                <span>Or use your email for registeration</span>
-                <input type="text"  placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="password"  placeholder="Password">
-                <button id="sign-up">Sign up</button>
             </form>
         </div>
         <div class="form-container sign-in">
-            <form >
+            <form>
                 <h1>Sign In</h1>
+                <input id="email-sign-in" type="email" placeholder="Email">
+                <input id="password-sign-in" type="password" placeholder="Password">
+                <a href="#">Forget your password?</a>
+                <button id="sign-in">Sign In</button>
+                <!-- <span>Or use your email password</span> -->
+                <span class="or">Or</span>
                 <div class="social-icons">
                     <a href="/" class="icon">
-                        <i class="fa-brands fa-google-plus-g"></i></a>
+                        <i class="fa-brands fa-google-plus-g"></i>
+                        <span>Google</span>
+                    </a>
                     <a href="/" class="icon">
-                        <i class="fa-brands fa-github"></i></a>
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
                     <a href="/" class="icon">
-                        <i class="fa-brands fa-facebook-f"></i></a>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <!-- <a href="/" class="icon">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
                     <a href="/" class="icon">
-                        <i class="fa-brands fa-instagram"></i></a>
-                    <a href="/" class="icon">
-                        <i class="fa-brands fa-linkedin-in"></i></a>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <span>LinkedIn</span>
+                    </a> -->
                 </div>
-                <span>Or use your email password</span>
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <a href="#">Forget your password?</a>
-                <button>Sign In</button>
             </form>
         </div>
         <div class="toggle-container">
@@ -72,4 +88,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
